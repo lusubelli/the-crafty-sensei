@@ -5,7 +5,7 @@ Des conseils de développement de logiciels pour les ninjas du code
 
 1. Introduction au software craftsmanship : Les concepts de base du software craftsmanship et code de qualité.
 
-2. Pratiques d'ingénierie logicielle : Test-Driven Development, Refactoring, Continuous Integration et Continuous Delivery.
+[2. Pratiques d'ingénierie logicielle](./2-practices.MD) : Test-Driven Development, Refactoring, Continuous Integration et Continuous Delivery.
 
 3. Les principes SOLID : Principes SOLID.
 
