@@ -4,7 +4,7 @@
 
 ### TDD (Test-Driven Development)
 
-Inventé par [Kent Beck](https://fr.wikipedia.org/wiki/Kent_Beck) (connu aussi pour la creation de la methode agile XP extreme programming), le TDD a été popularisé dans les années 2000 et est considéré depuis par la communauté des clean coders comme une bonne pratique de developpement. Il permet de garantir la qualité du code et accelere la velocité d'une équipe.
+Inventé par [Kent Beck](https://fr.wikipedia.org/wiki/Kent_Beck) (connu aussi pour la creation de la methode agile XP extreme programming), le TDD a été popularisé dans les années 2000 et est considéré depuis par la communauté des clean coders comme une bonne pratique de developpement. L'ouvrage que je vous invite a lire est ()[Test Driven Development: By Example](https://www.amazon.fr/Test-Driven-Development-Kent-Beck/dp/0321146530#:~:text=Test%2DDriven%20Development%20de%20Kent,pas%20vraiment%20d'%C3%A9quivalent%20fran%C3%A7ais.&text=Ouvrage%20%22s%C3%A9minal%22%2C%20comme%20on,d%C3%A9veloppement%20pilot%C3%A9%20par%20les%20tests.) Il permet de garantir la qualité du code et accelere la velocité d'une équipe.
 
 Avant de commencer ce point je pense qu'il est indispensable de définir ce qu'est le code de test et de production. 
 Le code de production est le code qui est nécessaire pour que l'application se comporte comme exigé dans les business requirments.
@@ -238,7 +238,7 @@ Remarque: nous reviendrons dessus mais il serait interressant de commit entre ch
 
 #### TDD Nindo
 
-**RED-GREEN-REFACTOR** Le principe general consiste à faire des cycles iteratifs de developpement en 3 étapes:
+**Red-Green-Refactor** Le principe general consiste à faire des cycles iteratifs de developpement en 3 étapes:
   - Ecrire un test qui compile mais echoue
   - Ecrire le code de production pour que le test passe
   - Refactoriser le code (production et test sans en changer le comportement)
