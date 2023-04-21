@@ -12,6 +12,16 @@ Le code de test est le code qui va tester le code de production.
 
 Avec le TDD nous pouvons couvrir 100% du code. Nous verrons les outils pour mesurer cette couverture dans un autre chapitre.
 
+Dans un mode ideal, nous aurons un Product Owner capable d'ecrire les regles de gestions en bullet points comme dans l'exemple suivant (pour fizzbuzz)
+Si ce n'est le case, vous pouvez suggerer en toute transparence qu'il l'aurait peut etre besoin d'un petit coaching agile, mais en attendant c'est a vous d'essayer d'interpreter ses propos en bullet point (et dans votre bienveillance, accompagnez le pour qu'il sache de quelle maniere vous aimeriez qu'il ecrive ses specifications)
+
+Exemple avec Fizzbuzz :
+- Écrire une fonction qui prend en entrée un entier n et qui renvoie une chaînes de caractères.
+- Si l'entier est divisible par 3, la chaîne doit etre "Fizz".
+- Si l'entier est divisible par 5, la chaîne doit etre "Buzz".
+- Si l'entier est divisible par 3 et par 5, la chaîne doit etre "FizzBuzz".
+- Si l'entier n'est pas divisible par 3 ni par 5, renvoyer null.
+
 #### TDD Nindo
 
 **RED-GREEN-REFACTOR** Le principe general consiste à faire des cycles iteratifs de developpement en 3 étapes:
