@@ -218,18 +218,23 @@ public final class FizzBuzz {
     private static final int BUZZ_DIVIDER = 5;
 
     final String fizzBuzz(final int n) {
-        if (n % FIZZ_DIVIDER == 0 && n % BUZZ_DIVIDER == 0) {
-            return "fizzbuzz";
-        } else if (n % FIZZ_DIVIDER == 0) {
-            return "fizz";
-        } else if (n % BUZZ_DIVIDER == 0) {
-            return "buzz";
+        final StringBuilder fizzbuzzBuilder = new StringBuilder();
+        if (n % FIZZ_DIVIDER == 0) {
+            fizzbuzzBuilder.append("fizz");
         }
-        return null;
+        if (n % BUZZ_DIVIDER == 0) {
+            fizzbuzzBuilder.append("buzz");
+        }
+        return fizzbuzzBuilder.toString();
     }
     
 }
 ```
+
+Evidemment il y a plusieurs facons de faire qui seront correctes.
+Je vous laisse imaginer l'iteration pour la BR4 ;)
+
+Remarque: nous reviendrons dessus mais il serait interressant de commit entre chaque iteration TDD :)
 
 #### TDD Nindo
 
